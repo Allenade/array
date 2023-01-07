@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container {
+  width: 50%;
+  height: 70vh;
+  background-color: hsl(0, 41%, 46%);
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.modal {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(71, 128, 179, 0.801);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show {
+  background-color: red;
+}
